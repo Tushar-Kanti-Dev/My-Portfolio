@@ -1,0 +1,187 @@
+/* for desktop */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+.nav-logo {
+    text-align: left;
+
+}
+
+.nav-heading {
+    text-align: right;
+}
+
+.nav-manu {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    justify-content: flex-end;
+
+
+}
+
+.nav-manu a {
+    margin: 25px 0 0 10px;
+    background-color: transparent;
+}
+
+/* navbar end */
+/* 
+profile  start */
+
+.top {
+    position: absolute;
+    right: 16%;
+    top: 10%;
+    font-size: 5rem;
+    color: yellow;
+    text-shadow: 6px 3px 3px black;
+    transition: width2s, transform 2s;
+}
+
+.top:hover {
+    transform: rotate(360deg);
+    font-size: 6rem;
+}
+
+.bottom {
+    position: absolute;
+    left: 150px;
+    bottom: 7%;
+    font-size: 5rem;
+    color: yellow;
+    text-shadow: 6px 3px 3px black;
+    transition: transform 2s;
+}
+
+.bottom:hover {
+    transform: rotate(360deg);
+    font-size: 6rem;
+}
+
+.profile-desc p {
+    color: gray;
+    margin: 0 auto;
+    text-align: center;
+    width: 98%;
+}
+
+/* about me start */
+.aboutme-image {
+    margin-top: 150px;
+}
+
+.aboutme-image img {
+
+    width: 300px;
+    height: 290px;
+}
+
+.aboutme-desc p {
+    text-align: left;
+}
+
+/* professional Experince */
+/* achivement content start */
+.contac-link {
+    text-align: center;
+    min-height: 470px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.media-button {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+    right: 25%;
+
+}
+
+.media-button .btn {
+    font-size: 3rem;
+    border-radius: 50%;
+    width: 80px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.contac-link {
+    position: relative;
+}
+
+.media-button {
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 150px;
+}
+
+/* footer start here */
+
+
+.footer-left {
+    margin-top: 14px;
+
+}
+
+.footer-left a {
+    display: inline;
+    font-size: 1.4rem;
+
+}
+
+.footer-right p {
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+}
